@@ -1,0 +1,99 @@
+#titulo{
+    color:brown;
+}
+
+.Texto{
+    color:aqua
+}
+
+p.especial{
+    color:blueviolet
+}
+
+*{
+    font-size: 24px;
+}
+
+.color{
+    border-style: dotted;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 4px;
+}
+
+#fondo{
+    background-color: rgb(165, 165, 34);
+    height: 350px;
+    opacity: 0.8; /*0 ransparente, 1 solido*/
+    background-image: url("pics/G4pDnTMbQAMmbZv.jpg");
+    background-size: 400px 500px;
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+body{
+    background-color: coral;
+}
+
+.margen{
+    background-color: chocolate;
+    margin: 15px 20px 25px 30px; 
+    padding: 30px 25px 20px 15px;
+    border: 2px solid black;
+    overflow: hidden;
+    outline: 1px solid skyblue;
+}
+.text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-decoration: line-through;
+    text-shadow: 3px 5px 5px blue;
+
+}
+
+a:link{
+    color: blueviolet;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color:black;
+}
+
+a:active{
+    color:greenyellow;
+}
+
+ul{
+    background-color: aquamarine;
+    /*list-style-type: none;
+    padding-left: 0;*/
+    list-style-position: inside;
+    list-style-type: circle;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: solid 1px white;
+    padding: 10px;
+}
+th{
+    background-color: blue;
+    color: slategray;
+    text-align: left;
+
+}
+tr:nth-child(odd){
+    background-color: gray;
+}
+tr:hover{
+    background-color: gray;
+    cursor:pointer;
+}
